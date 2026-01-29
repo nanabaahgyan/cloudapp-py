@@ -6,6 +6,7 @@ app = FastAPI()
 
 # use the app instance as a decorator to handle an
 # HTTP route and HTTP method.
+# Putting this here to test push to vm
 @app.get("/")
 def read_index():
     """
